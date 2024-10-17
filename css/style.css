@@ -1,0 +1,80 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+}
+
+section#navbar {
+    position: fixed;
+    width: 100%;
+    border: 2px solid #000;
+    background-color: #fff;
+}
+
+section#navbar header {
+    border: 2px solid #fa4;
+}
+
+section#navbar header nav {
+    border: 2px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
+}
+
+section#navbar header nav .logo {
+    border: 2px solid #fafa;
+}
+
+section#navbar header nav .logo h1 {
+    font-size: 2rem;
+    font-weight: 650;
+}
+
+section#navbar header nav .navigation-menu {
+    border: 2px solid #fafa;
+    width: 50%;
+}
+
+section#navbar header nav .navigation-menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section#navbar header nav .navigation-menu ul li, a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #000;
+}
+
+section#navbar header nav .navigation-menu ul li:hover, a:hover{
+    color: #fa4;
+}
+
+section#Home {
+    border: 2px solid #000;
+    width: 100%;
+    background-color: #fa4;
+    margin-top: 64px;
+    height: 100vh;
+    max-height: 100vh;
+}
+
+section#Home main {
+    border: 2px solid #000;
+    margin: 1em;
+    max-height: 100vh;
+}
